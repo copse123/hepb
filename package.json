@@ -7,7 +7,7 @@
     "start": "vite --open",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "pre-commit": "tsc && eslint --config .eslintrc.cjs --max-warnings=0 && prettier ./src --write && vite build",
+    "pre-commit": "tsc && eslint --config .eslintrc.cjs --max-warnings=0 && prettier ./src --write && vite build && cp CNAME docs",
     "prepare": "husky install"
   },
   "dependencies": {
