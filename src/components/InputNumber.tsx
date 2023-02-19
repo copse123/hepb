@@ -1,7 +1,7 @@
 import { Dispatch, FC, SetStateAction } from "react";
 
 interface InputNumberProps {
-  value: number | undefined;
+  value: number | string | undefined;
   setValue: Dispatch<SetStateAction<number | undefined>>;
   placeholder?: string;
 }
